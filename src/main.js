@@ -1,12 +1,15 @@
 import Vue from 'vue'
 import App from './App'
-import store from './store'
 
+import store from './store'
 Vue.prototype.$store = store
 
 Vue.config.productionTip = false
-
 App.mpType = 'app'
+
+import cuCustom from './colorui/components/cu-custom.vue'
+Vue.component('cu-custom',cuCustom)
+
 //公共js
 import PubFuc from'./common/js/util.js'
 Vue.prototype.$pubFuc = PubFuc
