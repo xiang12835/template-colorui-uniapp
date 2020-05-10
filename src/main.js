@@ -3,6 +3,7 @@ import App from './App'
 import store from './store'
 
 Vue.prototype.$store = store
+
 Vue.config.productionTip = false
 
 App.mpType = 'app'
@@ -15,6 +16,6 @@ Vue.prototype.$websiteUrl = 'http://localhost:3000';
 Vue.prototype.$imgSuffix = '?imageView&thumbnail=369x0&quality=75&tostatic=0';
 
 const app = new Vue({
-    ...App
+  ...App
 })
 app.$mount()
