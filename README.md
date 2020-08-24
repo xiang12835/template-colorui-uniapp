@@ -1,4 +1,4 @@
-# skeleton-colorui-uniapp
+# template-colorui-uniapp
 
 ## Project setup
 ```
